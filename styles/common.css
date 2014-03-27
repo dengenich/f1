@@ -1,0 +1,56 @@
+/* common (begin) */
+    *
+    {
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+    html
+    {
+        font: 13px Arial, sans-serif;
+
+        color: #222;
+        background: #fff;
+    }
+
+    body
+    {
+        margin: 0;
+    }
+
+    :link,
+    :visited
+    {
+        color: #33c;
+
+        text-decoration: none;
+
+        -webkit-transition: color .2s ease-in-out;
+           -moz-transition: color .2s ease-in-out;
+             -o-transition: color .2s ease-in-out;
+                transition: color .2s ease-in-out;
+    }
+
+    :link:hover,
+    :visited:hover
+    {
+        color: #f00;
+    }
+/* common (end) */
+
+/* section (begin) */
+    .section
+    {
+        overflow: hidden;
+
+        padding: 30px 10%;
+
+        clear: both;
+    }
+
+    .section_light
+    {
+        background: #f5f5f5;
+    }
+/* section (end) */

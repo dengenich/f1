@@ -1,0 +1,76 @@
+/* schedule (begin) */
+    .schedule
+    {
+        font: 64px 'Oswald', sans-serif;
+        text-transform: uppercase;
+
+        min-width: 14em;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+
+        background: #f5f5f5;
+    }
+
+    .schedule__list
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .schedule__item
+    {
+        list-style: none;
+
+        white-space: nowrap;
+
+        overflow: hidden;
+
+        margin: 0;
+        padding: 10px 30px;
+
+        color: #ccc;
+    }
+
+    .schedule__item:nth-child(even)
+    {
+        background: #fff;
+    }
+
+    .schedule__item_active
+    {
+        padding: 0;
+    }
+
+    .schedule__link
+    {
+        display: block;
+
+        overflow: hidden;
+
+        padding: 10px 30px;
+
+        color: #222;
+    }
+
+    .schedule__name
+    {
+        display: inline-block;
+
+        width: 40%;
+
+        /*background: aqua;*/
+    }
+
+    .schedule__value
+    {
+        font-size: 48px;
+
+        display: inline-block;
+
+        text-align: right;
+
+        width: 60%;
+
+        /*background: lime;*/
+    }
+/* schedule (end) */
